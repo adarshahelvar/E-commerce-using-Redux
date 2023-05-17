@@ -1,8 +1,14 @@
+import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Routing from './Routes/Routing';
 
 function App() {
   return (
     <div>
-      <h2>Hellow world...!</h2>
+      <Header />
+      <Routing />
+      <Footer />
     </div>
   );
 }
