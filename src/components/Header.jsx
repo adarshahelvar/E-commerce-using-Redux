@@ -39,7 +39,9 @@ export default function App() {
               <Link to="/products">
                 <MDBNavbarLink>Products</MDBNavbarLink>
               </Link>
-              <MDBNavbarLink>Pricing</MDBNavbarLink>
+              <Link to="/cart">
+              <MDBNavbarLink>Cart</MDBNavbarLink>
+              </Link>
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>

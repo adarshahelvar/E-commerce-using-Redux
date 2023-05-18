@@ -16,24 +16,24 @@ export default function App() {
         </div>
 
         <div>
-          <a href="" className="me-4 text-reset">
+          <p className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="facebook-f" />
-          </a>
-          <a href="" className="me-4 text-reset">
+          </p>
+          <p className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="twitter" />
-          </a>
-          <a href="" className="me-4 text-reset">
+          </p>
+          <p className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="google" />
-          </a>
-          <a href="" className="me-4 text-reset">
+          </p>
+          <p className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="instagram" />
-          </a>
-          <a href="" className="me-4 text-reset">
+          </p>
+          <p className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="linkedin" />
-          </a>
-          <a href="" className="me-4 text-reset">
+          </p>
+          <p className="me-4 text-reset">
             <MDBIcon color="secondary" fab icon="github" />
-          </a>
+          </p>
         </div>
       </section>
 
@@ -46,57 +46,57 @@ export default function App() {
                 About
               </h6>
               <p>
-                ADARSHA A<br/> A passionate and skilled ReactJS frontend developer,
-                eager to bring innovation and creativity to the world of web
-                development.
+                ADARSHA A<br /> A passionate and skilled ReactJS frontend
+                developer, eager to bring innovation and creativity to the world
+                of web development.
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Men's</h6>
               <p>
-                <a href="#!" className="text-reset">
+                <p href="#!" className="text-reset">
                   T-Shirts
-                </a>
+                </p>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <p href="#!" className="text-reset">
                   Formal Shirts
-                </a>
+                </p>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <p href="#!" className="text-reset">
                   Formal Cambo
-                </a>
+                </p>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <p href="#!" className="text-reset">
                   Kurta's
-                </a>
+                </p>
               </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Women's </h6>
               <p>
-                <a href="#!" className="text-reset">
+                <p href="#!" className="text-reset">
                   Sarees
-                </a>
+                </p>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <p href="#!" className="text-reset">
                   Party Wears
-                </a>
+                </p>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <p href="#!" className="text-reset">
                   Lehangas
-                </a>
+                </p>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <p href="#!" className="text-reset">
                   Formals
-                </a>
+                </p>
               </p>
             </MDBCol>
 
@@ -128,12 +128,12 @@ export default function App() {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
         © 2023 Copyright:
-        <a
+        <p
           className="text-reset fw-bold"
           href="https://github.com/adarshahelvar"
         >
           Adarsha's GitHub
-        </a>
+        </p>
       </div>
     </MDBFooter>
   );
