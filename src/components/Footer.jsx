@@ -128,12 +128,13 @@ export default function App() {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
         © 2023 Copyright:
-        <p
+        <a
           className="text-reset fw-bold"
           href="https://github.com/adarshahelvar"
         >
           Adarsha's GitHub
-        </p>
+        </a>
+        <h5>Source Code : https://github.com/adarshahelvar/E-commerce-using-Redux</h5>
       </div>
     </MDBFooter>
   );
